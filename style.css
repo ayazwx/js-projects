@@ -1,0 +1,27 @@
+body {
+	place-items: center;
+	display: grid;
+}
+#main {
+	position: relative;
+	border-radius: 7px;
+	margin: auto;
+	margin-top: 200px;
+	display: block;
+	height: auto;
+	width: 700px;
+	background: rgba(221, 144, 239, 0.7);
+	padding: 5px;
+	max-width: 800px;
+}
+.project {
+    color: black;
+}
+html{
+    background-image:url('assets/outerspace-6.gif');
+    background-size: cover;
+}
+.arrow {
+    width: 30px;
+    padding-top: 25px;
+}
