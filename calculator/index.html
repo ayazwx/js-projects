@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Calculator</title>
+		<link rel="icon" type="image/png" href="assets/icon.png" />
+    </head>
+    <body>
+        <div class="mode">
+            <span class="mode_moon"></span>
+            <span class="mode_sun"></span>
+            <span class="mode_ball" id="ball"></span>
+        </div>
+        <div id="calculator">
+            <table>
+                <tr>
+                    <div class="smallvalue" id="smallValue">0</div>
+                    <td id="value" colspan="5" class="btn btn--first">0</td>
+                </tr>
+                <tr>
+                    <td class="btn" id="number">8</td>
+                    <td class="btn" id="number">7</td>
+                    <td class="btn" id="number">9</td>
+                    <td class="btn" id="option">/</td>
+                    <td class="btn" id="option">AC</td>
+                </tr>
+                <tr>
+                    <td class="btn" id="number">4</td>
+                    <td class="btn" id="number">5</td>
+                    <td class="btn" id="number">6</td>
+                    <td class="btn" id="option">*</td>
+                    <td class="btn" id="option">C</td>
+                </tr>
+                <tr>
+                    <td class="btn" id="number">1</td>
+                    <td class="btn" id="number">2</td>
+                    <td class="btn" id="number">3</td>
+                    <td class="btn" id="option">-</td>
+                    <td rowspan="2" class="btn">=</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="btn" id="number">0</td>
+                    <td class="btn" id="option">.</td>
+                    <td class="btn" id="option">+</td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

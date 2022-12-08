@@ -1,0 +1,88 @@
+body {
+	background: #ccc;
+	place-items: center;
+	display: grid;
+	transition: background 0.5s ease;
+}
+
+#calculator {
+	position: relative;
+	border-radius: 7px;
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+	height: auto;
+	width: 278px;
+	background: rgb(255, 255, 255);
+	font-size: 0.8em;
+	padding: 5px;
+	max-width: 320px;
+}
+table {
+	background: white;
+}
+.btn {
+    width: 60px;
+    height: 60px;
+    background: grey;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+.btn.btn--first {
+    text-align: right;
+    box-sizing: border-box;
+    background: white;
+    font-size: 25px;
+}
+.btn:hover {
+    background: blue;
+}
+td {
+	color: black;
+}
+.smallvalue {
+    text-align: right;
+}
+.mode {
+	width: 60px;
+	height: 30px;
+	background-color: #111;
+	border-radius: 50px;
+	display: flex;
+	margin-top: 10px;
+	margin-left: 400px;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	padding: 5px;
+	box-sizing: border-box;
+	transform: scale(1.2);
+	transition: background 0.5s ease;
+}
+.mode_moon {
+	width: 20px;
+	height: 20px;
+	background-image: url("assets/moon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mode_sun {
+	width: 20px;
+	height: 20px;
+	background-image: url("assets/sun.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mode_ball {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	left: 5px;
+	transition: all 0.5s ease;
+}
