@@ -1,0 +1,38 @@
+body {
+    background: grey;
+    text-align: center;
+}
+
+.input {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.todo-list {
+    margin-top: 20px;
+}
+
+#addtodo {
+    background: blue;
+    color: wheat;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#todo-title {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
